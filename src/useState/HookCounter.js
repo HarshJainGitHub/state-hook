@@ -7,7 +7,7 @@ function HookCounter() {
 
     return (
         <div>
-            <button type="submit" onClick={ () => incrementCounter(count+1)}>Count - {count}</button>         
+            <button type="submit" onClick={ () => incrementCounter(count+1)}>Count - {count}</button>
         </div>
     )
 }
@@ -20,4 +20,4 @@ export default HookCounter
 
 // 1) Call hooks only  at top level
 
-// 2) it should only called by react functional components 
+// 2) it should only called by react functional components
